@@ -14,15 +14,16 @@ jobs:
       - name: Test for composer
         id: composer_exists
         run: |
-            if [[ ! -f 'composer.json' ]]; then
-              response="fail"
-            else
-              response="pass"
-            fi
-
+            #if [[ ! -f 'composer.json' ]]; then
+              #response="fail"
+            #else
+              #response="pass"
+            #fi
+            ls -al
+            response="pass"
             echo "::set-output name=testresult::$response"
       - name: Check Pass
-        if: steps.composer_ecists.outputs.testresult != 'pass'
+        if: steps.composer_exists.outputs.testresult != 'pass'
         uses: actions/github-script@v3
         with:
           script: |
