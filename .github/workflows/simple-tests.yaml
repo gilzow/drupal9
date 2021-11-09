@@ -23,7 +23,7 @@ jobs:
             response="pass"
             echo "::set-output name=testresult::$response"
       - name: Check Pass
-        if: steps.composer_ecists.outputs.testresult != 'pass'
+        if: steps.composer_exists.outputs.testresult != 'pass'
         uses: actions/github-script@v3
         with:
           script: |
