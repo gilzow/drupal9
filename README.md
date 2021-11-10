@@ -21,7 +21,7 @@ Drupal9 is a flexible and extensible PHP-based CMS framework.
 
 ## Post-install
 
-Run through the Drupal installer as normal.  You will not be asked for database credentials as those are already provided.
+Run through the Drupal9 installer as normal.  You will not be asked for database credentials as those are already provided.
 
 ## Customizations
 
