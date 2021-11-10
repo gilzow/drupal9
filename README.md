@@ -15,7 +15,7 @@ Drupal9 is a flexible and extensible PHP-based CMS framework.
 * PHP 7.4
 * MariaDB 10.4
 * Redis 5
-* Droosh included
+* Droooooosh included
 * Automatic TLS certificates
 * Composer-based build
 
