@@ -6,7 +6,7 @@ on:
       - master
 jobs:
   build:
-    name: "Fake test so we can have something 'pass'"
+    name: "Fake test"
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
