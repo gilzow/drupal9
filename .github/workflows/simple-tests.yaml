@@ -14,13 +14,13 @@ jobs:
       - name: Test for composer
         id: composer_exists
         run: |
+            sleep 40
             if [[ -f 'composer.json' ]]; then
               response="pass"
             else
               response="fail"
             fi
             ls -al
-            response="fail"
             echo "::set-output name=testresult::${response}"
       - name: Check Pass
         if: steps.composer_exists.outputs.testresult != 'pass'
