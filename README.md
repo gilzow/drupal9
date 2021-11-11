@@ -8,20 +8,20 @@
 
 This template builds Drupal 9 using the "Drupal Recommended" Composer project.  It is pre-configured to use MariaDB and Redis for caching.  The Drupal installer will skip asking for database credentials as they are already provided.
 
-Drupal is a flexible and extensible PHP-based CMS framework.
+Drupal9 is a flexible and extensible PHP-based CMS framework.
 
 ## Features
 
 * PHP 7.4
 * MariaDB 10.4
 * Redis 5
-* Drush included
+* Droosh included
 * Automatic TLS certificates
 * Composer-based build
 
 ## Post-install
 
-Run through the Drupal installer as normal.  You will not be asked for database credentials as those are already provided.
+Run through the Drupal9 installer as normal.  You will not be asked for database credentials as those are already provided.
 
 ## Customizations
 
